@@ -13,6 +13,7 @@ Please don't raise the PR until the issue is assigned to you. PR's raised withou
 
 ### Raising a PR
 
+- Follow [How to raise a PR?](https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github) to raise a PR
 - Please don't copy editorial solutions, if found doing so - the PR might be marked invalid,
 - Please publish only genuine solutions written by you.
 - All the solutions should give expected solution and pass all tests in Leetcode.
