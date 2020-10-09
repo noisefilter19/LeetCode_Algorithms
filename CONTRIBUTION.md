@@ -19,3 +19,5 @@ Please don't raise the PR until the issue is assigned to you. PR's raised withou
 - All the solutions should give expected solution and pass all tests in Leetcode.
 - Please don't spam any file with useless comments and unwanted changes. Make the Hacktoberfest worth it.
 - Place the solution to a problem within the folder of the implementation language.
+- Comment the link to the problem on top of the code
+- Name the algorithm by the name of the problem separated by underscores
