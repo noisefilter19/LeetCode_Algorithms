@@ -1,3 +1,4 @@
+// Link: https://leetcode.com/problems/generate-parentheses/
 func generateParenthesis(n int) []string {
     combinations := []string{}
     backtrack(&combinations, n, "", 0, 0 )
