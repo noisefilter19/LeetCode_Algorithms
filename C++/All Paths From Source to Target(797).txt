@@ -1,0 +1,30 @@
+class Solution {
+public:
+    vector<vector<int>> ans;
+    void explorepaths(vector<vector<int>> &graph, int node, int target, vector<int> &v){
+        if(node==target){
+            v.push_back(node);
+            
+            ans.push_back(v);
+            return;
+        }
+        v.push_back(node);
+        for(auto nb: graph[node]){
+            explorepaths(graph, nb, target, v);
+            v.pop_back();
+        }
+    }
+    vector<vector<int>> allPathsSourceTarget(vector<vector<int>>& graph) {
+        int src = 0;
+        int target = graph.size()-1;
+        
+    
+        for(auto nb: graph[src]){
+            vector<int> v;
+            v.push_back(src);
+            explorepaths(graph, nb, target, v);
+        }
+        
+        return ans;
+    }
+};
