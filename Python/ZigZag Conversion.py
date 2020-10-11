@@ -1,4 +1,4 @@
-/*
+"""
 The distribution of the elements is period.
 
 P   A   H   N
@@ -26,7 +26,8 @@ secondJ = (j - i) + cycle - i
 
 I HOPE U GOT THE LOGIC 
 HAPPY CODING HACTOBER FEST 2020 
-*/
+
+"""
 
 def convert(self, s, numRows):
     if numRows==1:
