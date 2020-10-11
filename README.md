@@ -6,4 +6,4 @@ A Collection of solutions for **Medium/Hard** leetcode problems in different lan
 This repository is just for educational purpose and for any future reference by anyone
 
 ### Contribution
-Please read the [Contribution Guidelines](CONTRIBUTION.md) before you contribute.
+Please read the [Contribution Guidelines](./CONTRIBUTING.md) before you contribute.
