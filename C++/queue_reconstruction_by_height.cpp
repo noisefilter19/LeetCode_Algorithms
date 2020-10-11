@@ -1,3 +1,5 @@
+//https://leetcode.com/problems/queue-reconstruction-by-height/
+
 bool comp(vector<int> a, vector<int> b) {
     return a[0]<b[0];
 }
