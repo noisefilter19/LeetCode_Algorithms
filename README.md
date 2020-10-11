@@ -7,3 +7,15 @@ This repository is just for educational purpose and for any future reference by 
 
 ### Contribution
 Please read the [Contribution Guidelines](CONTRIBUTION.md) before you contribute.
+
+### Want to Crack Leetcode Problems Easily?
+
+The steps to crack these problems. 
+
+(1) The first and foremost is to be patient, to understand the question well.
+
+(2) Then, analyze a toy example, figure out how would you solve this problem without programming, what type of knowledge or tactics you have used (math, the algorithms you have mastered before), what is the logic behind this. Make sure to put all the possible situations in the example (From simple to more complex).
+
+(3) After the main problem is resolved, think about special cases, twit your pseudo-code a little to solve the special cases.
+
+(4) To convert this thinking process to coding should be an easy step.
