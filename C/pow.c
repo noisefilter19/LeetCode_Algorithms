@@ -1,3 +1,5 @@
+//  https://leetcode.com/problems/powx-n/
+
 double myPow2(double x,int n){
     double value;
     if(n==0)
