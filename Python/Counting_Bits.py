@@ -18,3 +18,4 @@ class Solution:
             else:
                 bits.append(bits[j])
         return bits                
+    
