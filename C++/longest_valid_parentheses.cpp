@@ -5,31 +5,24 @@ class Solution {
 public:
     int longestValidParentheses(string s) {
         stack<int> st;
-
-        int ans = 0,cur=0;
+        st.push(-1);
+        int ans = 0;
         for(int i =0;i<s.size();i++)
         {
             char symb = s[i];
             if(symb=='(')
             {
-                st.push('(');
+                st.push(i);
             }
-
-            if(symb==')' and st.empty())
-            {
-                ans = max(ans,cur);
-                cur  = 0;
-            }
-
+            
             else
             {
-                cur+=2;
                 st.pop();
+                if(st.empty()) st.push(i);
+                else ans = max(ans,i-st.top());
             }
-
-
         }
-        ans = max(ans,cur);
+        
         return ans;
     }
 };
