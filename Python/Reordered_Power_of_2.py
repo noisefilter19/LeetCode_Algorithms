@@ -17,3 +17,4 @@ class Solution:
             if set(str(2 ** p)) == set(N_string):
                 return True
         return False
+    
