@@ -7,3 +7,4 @@ This repository is just for educational purpose and for any future reference by 
 
 ### Contribution
 Please read the [Contribution Guidelines](./CONTRIBUTING.md) before you contribute.
+Please bear with the delays in reviewing or assigning an issue as I'm a working professional. Also, priority would be given to first time contributors.
