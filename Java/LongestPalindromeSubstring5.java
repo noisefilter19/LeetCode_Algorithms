@@ -1,5 +1,7 @@
 // The problem was taken from : https://leetcode.com/problems/longest-palindromic-substring/
-
+//
+// Created by Ricky Benkovich 13/10/2020
+//
 public class LongestPalindromeSubstring5 {
 
     public String expandPalindrome(String s, int left, int right, String curr_pali, int i){
