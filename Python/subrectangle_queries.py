@@ -1,4 +1,6 @@
 
+# link: https://leetcode.com/problems/subrectangle-queries/
+
 class SubrectangleQueries:
 
     def __init__(self, lists):
