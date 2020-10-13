@@ -1,8 +1,11 @@
 # Contributing to the repository
 
 Welcome to the repository! Before sending your pull requests, make sure that you read the whole guidelines. If you have any doubt on the contributing guide, please feel free to state it clearly in an issue.
+
 Reference/Mention the issue being fixed in the PR.
+
 **Only assigned issue will be reviewed**
+
 We accept only **Medium/Hard problem**. So, don't raise an issue for Easy problems.
 
 ### Before raising a pullrequest
