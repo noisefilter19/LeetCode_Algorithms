@@ -12,7 +12,7 @@ class MostWater:
     def calculate_area(self):
         """
         Function that calculate max area of water which can be 'store' between some heights
-        :return:
+        :return: int value of max area of water
         """
         max_area = 0  # our start maximum area of water should be 0
         left_pointer = 0 # we just declare pointers to know on which index we are in `heights` list
