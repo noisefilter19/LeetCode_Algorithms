@@ -9,5 +9,4 @@ class Solution:
             return True                                 # return statement
         else:                                           # else statement
             return False
-
-        # End of the code
+# End of the code
