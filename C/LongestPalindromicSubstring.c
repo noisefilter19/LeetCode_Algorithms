@@ -2,8 +2,7 @@
 // Created by Ofek Mula on 14/10/2020.
 //
 
-#include <stdio.h>
-#include <string.h>
+#include <bits/stdc++.h>
 
 char* get_substring(char* s,int start_index,int end_index){
     char* substring=(char*)malloc(sizeof(char)*(end_index-start_index+2));
