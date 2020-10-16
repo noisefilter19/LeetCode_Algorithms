@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/subarray-product-less-than-k/
+
 class Solution:
     def numSubarrayProductLessThanK(self, nums: List[int], k: int) -> int:
         def fac(n):
