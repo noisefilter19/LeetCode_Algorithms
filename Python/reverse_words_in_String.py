@@ -9,9 +9,9 @@ Note that s may contain leading or trailing spaces or multiple spaces between tw
 problem link : https://leetcode.com/problems/reverse-words-in-a-string/
 '''
 
-
-s=input()
-s.strip()
-lis=s.split()
-print(' '.join(lis[::-1]))
-
+class Solution:
+    def reverseWords(self, s: str) -> str:
+        
+        s.strip()
+        lis=s.split()
+        return (' '.join(lis[::-1]))
