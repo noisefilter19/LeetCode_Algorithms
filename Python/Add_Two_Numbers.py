@@ -1,5 +1,5 @@
 # Problem Link: https://leetcode.com/problems/add-two-numbers/
-
+#The problem adds tow numbers with the input taken from the user throught the list node
 class Solution:
 	def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
 		suml = self.reverse(l1) + self.reverse(l2)
