@@ -12,7 +12,7 @@ We accept only **Medium/Hard problem**. So, don't raise an issue for Easy proble
 
 To contribute an algorithm, please raise an issue for the problem using the following title
 
-Problem No. | Problem name | Language
+Problem No. | Problem name | Programming Language
 
 Please don't raise the PR until the issue is assigned to you. PR's raised without assignment may lead to PR being marked invalid
 
