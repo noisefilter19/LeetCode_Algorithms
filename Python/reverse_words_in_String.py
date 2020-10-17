@@ -7,7 +7,6 @@ problem link : https://leetcode.com/problems/reverse-words-in-a-string/
 '''
 class Solution:
     def reverseWords(self, s: str) -> str:
-        
         s.strip()
         lis=s.split()
         return (' '.join(lis[::-1]))
