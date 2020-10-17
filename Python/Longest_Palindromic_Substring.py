@@ -1,20 +1,20 @@
 # LeetCode Problem link - https://leetcode.com/problems/longest-palindromic-substring/
 
-
+#The solution is to find the Longest Palindrome
 class Solution:
     def longestPalindrome(self, string): 
         maxLength = 1
 
         start = 0
-        length = len(string) 
+        leng = len(string) 
 
         low = 0
         high = 0
 
-        for i in range(1, length):  
+        for i in range(1, leng):  
             low = i - 1
             high = i 
-            while low >= 0 and high < length and string[low] == string[high]: 
+            while low >= 0 and high < leng and string[low] == string[high]: 
                 if high - low + 1 > maxLength: 
                     start = low 
                     maxLength = high - low + 1
@@ -23,7 +23,7 @@ class Solution:
 
             low = i - 1
             high = i + 1
-            while low >= 0 and high < length and string[low] == string[high]: 
+            while low >= 0 and high < leng and string[low] == string[high]: 
                 if high - low + 1 > maxLength: 
                     start = low 
                     maxLength = high - low + 1
