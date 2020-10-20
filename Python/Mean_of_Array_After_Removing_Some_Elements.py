@@ -1,3 +1,4 @@
+# https://leetcode.com/contest/biweekly-contest-37/submissions/detail/409863464/
 class Solution:
     def trimMean(self, arr: List[int]) -> float:
         n = len(arr)
