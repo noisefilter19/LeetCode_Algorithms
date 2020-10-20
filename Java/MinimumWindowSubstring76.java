@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-class MinimumWindowSubstring {
+class Solution {
     public String minWindow(String s, String t) {
 
         if (s.length() == 0 || t.length() == 0) {
