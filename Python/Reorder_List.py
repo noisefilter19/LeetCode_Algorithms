@@ -1,4 +1,4 @@
-# LeetCode link: https://leetcode.com/problems/reorder-list/submissions/
+# LeetCode link: https://leetcode.com/problems/reorder-list/
 # Issue: https://github.com/noisefilter19/LeetCode_Algorithms/issues/522
 # Definition for singly-linked list.
 # class ListNode:
