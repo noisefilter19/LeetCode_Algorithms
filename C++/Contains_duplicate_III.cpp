@@ -24,21 +24,23 @@ Constraints:
     0 <= t <= 231 - 1
 */
 
+
 // Runtime : 20 ms
 
+
 bool containsNearbyAlmostDuplicate(vector<int>& nums, int k, int t) {
-        if(nums.size()==1 || nums.size()==0)        // If the size of the vector is 0 or 1, false is returned.
-            return false;
-        for(int i=0;i<nums.size()-1;i++)
-        {
-            for(int j=i+1;j<nums.size();j++)
-            {
-                if((j-i)>k)                         // Checking every possible pair for the given conditions.
-                    break;
-                long long l=abs(nums[j]-nums[i]);
-                if(l<=t)
-                    return true;
-            }
-        }
+    if(nums.size()==1 || nums.size()==0)        // If the size of the vector is 0 or 1, false is returned.
         return false;
+    for(int i=0;i<nums.size()-1;i++)
+    {
+        for(int j=i+1;j<nums.size();j++)
+        {
+            if((j-i)>k)                         // Checking every possible pair for the given conditions.
+                break;
+            long long l=abs(nums[j]-nums[i]);
+            if(l<=t)
+                return true;
+        }
     }
+    return false;
+}
