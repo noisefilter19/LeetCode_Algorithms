@@ -1,3 +1,14 @@
+"""
+https://leetcode.com/problems/rotting-oranges/
+
+Comments included with the code. 
+
+The idea is to go a BFS level order traversal from each rotting orange, then
+add 1 to minutes elapsed after each level. Keep a count of how many pure oranges
+remained at each point, and when they reach zero, return minutes elapsed.
+
+"""
+
 class Solution(object):
     def orangesRotting(self, grid):
         """
