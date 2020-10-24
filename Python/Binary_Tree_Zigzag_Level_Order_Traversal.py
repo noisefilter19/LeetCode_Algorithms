@@ -11,12 +11,17 @@ deque: https://docs.python.org/3/library/collections.html#collections.deque
 '''
 
 from collections import deque
-# Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, val=0, left=None, right=None):
-#         self.val = val
-#         self.left = left
-#         self.right = right
+from typing import List
+
+
+class TreeNode:
+    """
+    Binary tree node
+    """
+    def __init__(self, val=0, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
 
 
 class Solution:

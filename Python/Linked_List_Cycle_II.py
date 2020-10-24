@@ -1,5 +1,12 @@
 #LeetCode problem link: https://leetcode.com/problems/linked-list-cycle-ii/
 
+
+class ListNode(object):
+    def __init__(self, x):
+        self.val = x
+        self.next = None
+
+
 class Solution:
     def detectCycle(self, head: ListNode) -> ListNode:
         node = head

@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution:
     def canJump(self, nums: List[int]) -> bool:
         lastpos=len(nums)-1
