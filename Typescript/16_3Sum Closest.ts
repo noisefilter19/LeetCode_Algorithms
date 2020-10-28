@@ -3,8 +3,6 @@
  */
 
 function threeSumClosest(nums: number[], target: number): number {
-    let count = 0;
-    let sum =0;
     var result = [];
     let closest = 0;
 
@@ -21,6 +19,5 @@ function threeSumClosest(nums: number[], target: number): number {
         return Math.abs(b - target) < Math.abs(a - target) ? b : a;
     });
 
-    console.log(closest);
     return closest;
 };
