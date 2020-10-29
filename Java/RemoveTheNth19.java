@@ -10,7 +10,6 @@ public class RemoveTheNth19 {
      *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
      * }
      */
-
     public void remove_curr_node(ListNode node){
         if (node.next != null)
             node.next = node.next.next;
