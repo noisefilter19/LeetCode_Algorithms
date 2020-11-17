@@ -1,0 +1,17 @@
+class Solution:
+    def rob(self, nums: List[int]) -> int:
+        def rob1(a) :
+            n = len(a)
+            max_money = [0 for i in range(n+1)]
+            max_money[1] = a[0]
+            
+            for i in range(2, n+1) :
+                max_money[i] = max(max_money[i-1], max_money[i-2] + a[i-1])
+            
+            return max_money[n]
+        
+        houses = len(nums)
+        if houses == 1:
+            return nums[0]
+        
+        return max(rob1(nums[:houses-1]), rob1(nums[1:houses]))
