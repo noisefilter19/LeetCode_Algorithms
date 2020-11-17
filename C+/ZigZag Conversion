@@ -1,0 +1,31 @@
+class Solution {
+public:
+    string convert(string s, int numRows) {
+         if(numRows==1){
+            return s;}
+        string arr[numRows];
+        int rows=0;
+        bool down;
+        string t;
+       
+        for(int i=0;i<s.length();i++)
+        {
+            arr[rows].push_back(s[i]);
+           
+            if(rows==0)
+                down=true;
+            if(rows==numRows-1)
+                down=false;
+            if(down==true)
+                rows++;
+            else
+                rows--;
+            
+    }
+        for(string i:arr)
+        {
+            t+=i;
+        }
+        return t;
+    }
+};
