@@ -8,11 +8,10 @@ public:
                 nums_map[nums[i]] = true;
             }
         }
-        for (int i=0; i<n; i++) {
-            i = i+1;
+        for (int i=0; i<n; i++) 
             if (!nums_map[i]) 
-                return i; 
-        }
+                return i+1; 
+        
         return n+1;
     }
 };
