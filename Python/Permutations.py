@@ -12,6 +12,9 @@
 
 class Solution:
     def swap(self, indexA: int, indexB: int, nums: List[int]):
+        ''' This function will swap the element having 
+            index 'indexA' with element having index 'indexB' from a list 'num'
+        '''
         temp = nums[indexA]
         nums[indexA] = nums[indexB]
         nums[indexB] = temp
@@ -26,6 +29,7 @@ class Solution:
             self.swap(leftIndex, index, nums)
 
             # we have everything before leftIndex +1 locked in place for this permutation
+            # this is a recursive call to a function.
             self.findPermutations(nums, leftIndex + 1, rightIndex)
 
             # return array to the initial way it was
@@ -40,8 +44,8 @@ class Solution:
 
 # Complexity analysis :)
 #
-# time complexity: O(n! * n)
-# explenation: there are a total of n! permutations and it takes the leftIndex n steps to reach the right index for each of them
+# Time complexity: O(n! * n)
+# Explanation: there are a total of n! permutations and it takes the leftIndex n steps to reach the right index for each of them.
 #
-# space complexity: O(n!)
-# explenation: we need to store the resulting permutations until we print them
+# Space complexity: O(n!)
+# Explanation: we need to store the resulting permutations until we print them.
