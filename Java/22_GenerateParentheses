@@ -1,0 +1,21 @@
+//Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
+
+
+import java.util.*;
+class Solution {
+    List<String> result=new ArrayList();
+    public List<String> generateParenthesis(int n) {
+        makeAllPossibleStrings("",n,0,0);
+        return result;
+    }
+    void makeAllPossibleStrings(String s,int n,int open,int close){
+        if(close == n){
+            result.add(s);
+            return;
+        }
+        if(open<n)
+            makeAllPossibleStrings(s+"(",n,open+1,close);
+        if(close<open)
+            makeAllPossibleStrings(s+")",n,open,close+1);
+    }
+}
