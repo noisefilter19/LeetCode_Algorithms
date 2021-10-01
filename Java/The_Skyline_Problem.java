@@ -7,7 +7,7 @@ Solution author: Gianluca Gippetto
 import java.util.*;
 
 
-class Solution {
+class The_Skyline_Problem {
     static int LEFT = 0;
     static int RIGHT = 1;
     static int HEIGHT = 2;

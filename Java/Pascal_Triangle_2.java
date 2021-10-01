@@ -1,4 +1,6 @@
-class Solution {
+import java.util.*;
+
+class Pascal_Triangle_2 {
     public List<Integer> getRow(int n) {
     List<Integer> tri = new ArrayList<Integer>();
     int i=0;

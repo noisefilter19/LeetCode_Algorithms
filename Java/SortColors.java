@@ -2,7 +2,7 @@
 /* Solving without using the inbuilt "sorting" function which is given in many programming languages because here we have to sort 'in-place' and in linear time */
 /* The time complexity-O(n) Space complexity-O(1) */
 
-class Solution{
+class SortColors{
 	public void sortColors(int[] nums) {
 		int p1=0,index=0,p2=nums.length-1;
 		int temp;
