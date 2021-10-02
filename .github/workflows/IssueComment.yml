@@ -1,0 +1,34 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      - name: Issue comment
+        # You may pin to the exact commit or the version.
+  # uses: kyoncy/issue-comment-actions@1b1e351bee044874171a5dc99598257425f6272c
+        uses: kyoncy/issue-comment-actions@v1
+        with:
+    # GitHub token for use by this action.
+         token: ${{ secrets.GITHUB_TOKEN }}
+    # Message
+         message: Thankyou, for opening the issue. Please wait for the issue to be assigned to you and fo not open anymore issues until this is resolved.
+
