@@ -28,4 +28,4 @@ jobs:
     # GITHUB_TOKEN secret
         repo-token: ${{ secrets.GITHUB_TOKEN }}
     # Message to comment
-        message: Please link your PR with the issue assigned to it, otherwise it will not be reviewed
+        message: Please link your PR with the issue, otherwise it will not be reviewed. If this PR was created for an Issue not assigned to you, it might be marked invalid
