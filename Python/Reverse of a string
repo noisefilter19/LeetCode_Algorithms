@@ -1,0 +1,6 @@
+#Reverse of a string
+str = input('Enter a String :')
+string = ''
+for a in str:
+    string = a + string
+print(string)
