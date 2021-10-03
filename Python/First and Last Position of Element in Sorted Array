@@ -1,0 +1,10 @@
+#First and Last Position of Element in Sorted Array
+
+array = list(map(int, input().split())) # array taking n inputs
+
+array.sort() #sorting the array
+
+print('First Position element in the array', array[0])
+
+print('Last Position element in the array', array[-1])
+
