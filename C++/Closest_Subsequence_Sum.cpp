@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/closest-subsequence-sum/
+
 class Solution {
 public:
     void generateSubset(vector<int> &nums, int i, int j, vector<int> &ans) {
