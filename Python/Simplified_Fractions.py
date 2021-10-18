@@ -1,4 +1,4 @@
-# https://leetcode.com/problems/simplified-fractions/submissions/
+# Link: https://leetcode.com/problems/simplified-fractions/submissions/
 
 class Solution:
     def simplifiedFractions(self, n: int):
