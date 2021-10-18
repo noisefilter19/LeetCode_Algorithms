@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/count-primes/
+
 class Solution:
     def countPrimes(self, n: int) -> int:
         prime = [True for i in range(n+1)]
