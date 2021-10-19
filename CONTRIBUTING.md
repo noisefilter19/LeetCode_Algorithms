@@ -26,3 +26,6 @@ Please don't raise the PR until the issue is assigned to you. PR's raised withou
 - Place the solution to a problem within the folder of the implementation language.
 - Comment the link to the problem on top of the code
 - Name the algorithm by the name of the problem separated by underscores
+
+
+## PLEASE LINK YOUR PRS TO THE ISSUE, IT'll HELP FAST-FORWARD THE REVIEW PROCESS
