@@ -3,7 +3,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-class Solution {
+class Minimum_Window_Substring {
     public String minWindow(String s, String t) {
 
         if (s.length() == 0 || t.length() == 0) {
